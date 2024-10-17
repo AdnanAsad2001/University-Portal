@@ -40,7 +40,7 @@ for i in range(1, 11):
     driver.find_element(By.XPATH, "/html/body/div/div[1]/section[2]/div/div/div/div/form/div[1]/div[5]/input").clear()
     driver.find_element(By.XPATH, "/html/body/div/div[1]/section[2]/div/div/div/div/form/div[1]/div[5]/input").send_keys("asdf1234")
 
-    driver.find_element(By.XPATH, "/html/body/div/div[1]/section[2]/div/div/div/div/form/div[1]/div[6]/input").send_keys("C:/Users/AdnanAsad/OneDrive/Desktop/University Portal/media/images.png")
+    driver.find_element(By.XPATH, "/html/body/div/div[1]/section[2]/div/div/div/div/form/div[1]/div[6]/input").send_keys("./University Portal/media/images.png")
 
     driver.find_element(By.XPATH, "/html/body/div/div[1]/section[2]/div/div/div/div/form/div[1]/div[7]/textarea").send_keys("Karachi")
 
