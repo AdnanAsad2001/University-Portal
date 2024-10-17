@@ -49,30 +49,3 @@ driver.find_element(By.XPATH, "/html/body/div/aside/div/div[4]/div/div/nav/ul/li
 time.sleep(4)
 
 
-'''driver.find_element(By.XPATH, "//*[@id='userEmail']").clear()
-driver.find_element(By.XPATH, "//*[@id='userEmail']").send_keys("msaad@ssuet.edu.pk")
-
-driver.find_element(By.XPATH,"//*[@id='genterWrapper']/div[2]/div[1]/label").click()
-
-driver.find_element(By.ID,"userNumber").clear()
-driver.find_element(By.ID,"userNumber").send_keys("03000263245")
-
-driver.find_element(By.ID,"dateOfBirthInput").click()
-driver.find_element(By.XPATH,"//*[@id='dateOfBirth']/div[2]/div[2]/div/div/div[2]/div[1]/div[2]/div[1]/select/option[11]").click()
-driver.find_element(By.XPATH,"//*[@id='dateOfBirth']/div[2]/div[2]/div/div/div[2]/div[1]/div[2]/div[2]/select/option[85]").click()
-driver.find_element(By.XPATH,"//*[@id='dateOfBirth']/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[3]").click()
-
-driver.find_element(By.ID,"subjectsInput").send_keys("ENGLISH")
-driver.find_element(By.ID,"subjectsInput").send_keys(Keys.ENTER)
-
-hobbies = driver.find_element(By.XPATH,"//*[@id='hobbiesWrapper']/div[2]/div[2]/label")
-driver.execute_script("arguments[0].click()",hobbies)
-
-driver.find_element(By.ID,"uploadPicture").send_keys('C:\\Users\\Administrator\\Desktop\\download.jpg')
-driver.find_element(By.ID,"currentAddress").send_keys("House no.2/5 PIB colony no.3")
-time.sleep(5)
-
-
-submitbtn = driver.find_element(By.ID,"submit")
-driver.execute_script("arguments[0].click()",submitbtn)
-time.sleep(15)'''
